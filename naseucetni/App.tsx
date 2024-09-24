@@ -36,7 +36,7 @@ export default function App() {
           iconName = 'home';
       }
 
-      return <MaterialCommunityIcons name={iconName} size={size} color={'white'} />;
+      return <MaterialCommunityIcons iconName={iconName} size={size} color={'white'} />;
     },
   })}
 >

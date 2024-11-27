@@ -19,7 +19,7 @@ export default function App() {
     tabBarStyle: {
       backgroundColor: '#060663',
     },
-    tabBarIcon: ({ size }) => {
+    tabBarIcon: ({ size, color }) => {
       let iconName;
 
       switch (route.name) {

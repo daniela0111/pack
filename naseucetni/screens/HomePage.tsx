@@ -4,7 +4,7 @@ import { View, Text, Button, TouchableOpacity, Image } from 'react-native';
 export default function HomePage() {
   return (
     <View style={{ flex: 4, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>naše účetní doklady</Text>
+      <Text>Main navigation</Text>
       <View>
         <Button
           title="Doklady přijaté"
